@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olbac</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/toastr.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/xzoom.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body> 
+    <button id="topBtn"><i class="fa fa-arrow-up"></i></button>
+    <div class="preloaders">
+      <div class="loaders"></div>
+    </div>
+    <div class="overlay"></div>
+    <!--*---start Top Header-->
+    <div class="containers">
+      <div class="top-head">
+        <div class="row"> 
+          <div class="col-lg-8 col-md-12">
+            <div class="logo-search">
+              <div class="menu-btn show-menu">
+                <div class="menu-btn-burger"></div>
+              </div>
+              <div class="nav-mob"><a class="logo" href="./index.html"> <img class="logo-desck" src="./images/logo/logo.png" width="150" height="60" alt="logo" draggable="false"><img class="logo-mob" src="./images/logo/logo.jpg" width="50" height="50" alt="logo" draggable="false"></a></div>
+              <div class="box-search"> 
+                <form action="#"><i class="fa fa-search icon-search"></i>
+                  <input type="text" name="search" placeholder="Enter a keywoard To Search">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="fix-header">
+              <div class="box-deal"><a href="./deals.html"> 
+                  <div class="deal-img"><img class="img-deal" src="./images/TopHeader/dealZone.png" loading="lazy" alt="deal zone"></div>
+                  <div class="deal-text">
+                     Deal Zone <br>
+                    End In <span>13.40.25</span>
+                  </div></a></div>
+              <div class="lang"><a href="./index-rtl.html"> <img src="./images/TopHeader/flag.png" loading="lazy" alt="flag"><span>عربى</span></a></div>
+              <div class="social">
+                <ul> 
+                  <li class="show-modal"> <a class="notification" href="./my-cart.html"> <i class="fa fa-shopping-cart icons-head"><span class="badge">3</span></i></a>
+                    <div class="modal-containers">
+                      <div class="box-of-product"> 
+                        <div class="product-image"> <img class="img-fluid" src="./images/products/3.png" loading="lazy" alt="product image"></div>
+                        <div class="product-desc"> 
+                          <!--**------category name-->
+                          <p class="ctg-name"><a href="#">Camers</a></p>
+                          <p class="product-name"><a href="#"> Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum, vero error, amet asperiores cumque delectus totam maxime quisquam suscipit fugiat modi. Corrupti exercitationem ipsum, obcaecati blanditiis illum voluptatum voluptatem. dolor sit, amet consectetur adipisicing elit. </a>
+                            <div class="price-rate"><a href="#"> 
+                                <p class="price">255.0 LG</p></a>
+                              <p> <i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"></i></p>
+                            </div>
+                            <form action="#"> 
+                              <label id="quant">Quantity :</label>
+                              <input type="number" disabled id="quant" name="quantity" min="1" max="5" value="1">
+                            </form>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="box-of-product"> 
+                        <div class="product-image"> <img class="img-fluid" src="./images/products/3.png" loading="lazy" alt="product image"></div>
+                        <div class="product-desc"> 
+                          <!--**------category name-->
+                          <p class="ctg-name"><a href="#">Camers</a></p>
+                          <p class="product-name"><a href="#"> Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum, vero error, amet asperiores cumque delectus totam maxime quisquam suscipit fugiat modi. Corrupti exercitationem ipsum, obcaecati blanditiis illum voluptatum voluptatem. dolor sit, amet consectetur adipisicing elit. </a>
+                            <div class="price-rate"><a href="#"> 
+                                <p class="price">255.0 LG</p></a>
+                              <p> <i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"></i></p>
+                            </div>
+                            <form action="#"> 
+                              <label id="quantities">Quantity :</label>
+                              <input type="number" disabled id="quantities" name="quantity" min="1" max="5" value="1">
+                            </form>
+                          </p>
+                        </div>
+                      </div>
+                      <!--=== Start Linkt Check Out-->
+                      <div class="checkout text-center"> <a href="./shipping.html">Checkout </a></div>
+                    </div>
+                  </li>
+                  <li class="show-modal"><a class="notification" href="./favourite.html"> <i class="fa fa-heart icons-head"><span class="badge">5</span></i></a>
+                    <div class="favourite-containers">
+                      <div class="box-of-product"> 
+                        <div class="product-image"> <img class="img-fluid" src="./images/products/8.png" loading="lazy" alt="product image"></div>
+                        <div class="product-desc"> 
+                          <!--**------category name-->
+                          <p class="ctg-name"><a href="#">Camers</a></p>
+                          <p class="product-name"><a href="#"> Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum, vero error, amet asperiores cumque delectus totam maxime quisquam suscipit fugiat modi. Corrupti exercitationem ipsum, obcaecati blanditiis illum voluptatum voluptatem. dolor sit, amet consectetur adipisicing elit. </a>
+                            <div class="price-rate"><a href="#"> 
+                                <p class="price">255.0 LG</p></a>
+                              <p> <i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"></i></p>
+                            </div>
+                            <form action="#"> 
+                              <label id="quantity">Quantity :</label>
+                              <input type="number" disabled id="quantity" name="quantity" min="1" max="5" value="1">
+                            </form>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="box-of-product"> 
+                        <div class="product-image"> <img class="img-fluid" src="./images/products/7.png" loading="lazy" alt="product image"></div>
+                        <div class="product-desc"> 
+                          <!--**------category name-->
+                          <p class="ctg-name"><a href="#">Camers</a></p>
+                          <p class="product-name"><a href="#"> Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum, vero error, amet asperiores cumque delectus totam maxime quisquam suscipit fugiat modi. Corrupti exercitationem ipsum, obcaecati blanditiis illum voluptatum voluptatem. dolor sit, amet consectetur adipisicing elit. </a>
+                            <div class="price-rate"><a href="#"> 
+                                <p class="price">255.0 LG</p></a>
+                              <p> <i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"></i></p>
+                            </div>
+                            <form action="#"> 
+                              <label id="quantit">Quantity :</label>
+                              <input type="number" disabled id="quantit" name="quantity" min="1" max="5" value="1">
+                            </form>
+                          </p>
+                        </div>
+                      </div>
+                      <!--=== Start Linkt Check Out-->
+                      <div class="checkout text-center"> <a href="./favourite.html">view All</a></div>
+                    </div>
+                  </li>
+                  <li><a href="#" data-toggle="modal" data-target="#modal-sign-up"> <i class="fa fa-user icons-head"></i></a></li>
+                  <li class="show-modal"><a href="#"> <img class="icons-head" src="./images/profile/Avatar.png" alt="user"></a>
+                    <div class="edit-profile"> 
+                      <div class="cover"> <img src="./images/profile/cover.png" alt="cover"></div>
+                      <div class="user-info"> 
+                        <div class="img-user"> <img src="./images/profile/Avatar.png" alt="user"></div>
+                        <div class="name-email-user"> 
+                          <p class="user-name"><a href="./profile.html"> Malik Ali</a></p>
+                          <p class="email">malik53@gmail.com</p>
+                        </div>
+                      </div>
+                      <div class="user-links"> 
+                        <div class="divider"> <a href="./my-orders.html"> <i class="fa fa-shopping-cart"> </i>  My Orders</a></div>
+                        <div class="divider"> <a href="./about-us.html"> <i class="fa fa-question-circle"></i>About Us</a></div>
+                        <div class="divider"> <a href="./contact-us.html"> <i class="fa fa-phone"></i> Contact Us</a></div>
+                        <div class="divider"> <a href="#"> <i class="fa fa-cog"></i> Settings</a></div>
+                      </div>
+                      <div class="log-out"> <a href="#"> <i class="fa fa-sign-out"> </i>Log Out</a></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal-->
+    <div class="modal fade" id="modal-sign-up" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close-modal" type="button" data-dismiss="modal" aria-label="Close">×</button>
+            <div class="content-sign-up"> 
+              <p class="title-modal"> Signup With</p>
+              <div class="sign-with-social"> <a href="#"><i class="fa fa-facebook icon-face"> </i></a><a href="#"> <i class="fa fa-google icon-google"></i></a></div>
+              <div class="caption-modal"> 
+                <p>Or signup by entering these data</p>
+              </div>
+              <div class="form-sign-up"> 
+                <form action="#"> 
+                  <div class="custom-input"> 
+                    <input type="text" name="names" placeholder="User name">
+                  </div>
+                  <div class="custom-input"> 
+                    <input type="text" name="names" placeholder="Full name">
+                  </div>
+                  <div class="custom-input"> 
+                    <input type="email" name="names" placeholder="Email">
+                  </div>
+                  <div class="custom-input"> 
+                    <input type="text" name="names" placeholder="City">
+                  </div>
+                  <div class="custom-input"> 
+                    <input type="number" name="names" placeholder="Phone">
+                  </div>
+                </form>
+                <button class="register btn">
+                   Register</button>
+                <p class="have-accuont text-center">Already have an account?<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-loging">Login Now!</a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal-->
+    <div class="modal fade" id="modal-loging" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close-modal" type="button" data-dismiss="modal" aria-label="Close">×</button>
+            <div class="content-sign-up">
+              <p class="title-modal text-center"> Welcom Back!</p>
+              <p class="text-center">Or signup by entering these data</p>
+              <div class="caption-modal"> </div>
+              <div class="form-sign-up"> 
+                <form action="#"> 
+                  <div class="custom-input"> 
+                    <input type="email" name="names" placeholder="Email Address">
+                  </div>
+                  <div class="custom-input"> 
+                    <input type="password" name="names" placeholder="Password">
+                  </div>
+                </form><a class="text-right forget-pass" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-forget">Forgot Password? 
+                  <button class="register btn">
+                     Login</button></a>
+                <div class="sign-with-social mb-2 mt-2 text-center"> 
+                  <p class="or-login">Or Login With</p><a href="#"><i class="fa fa-facebook icon-face"> </i></a><a href="#"> <i class="fa fa-google icon-google"></i></a>
+                </div>
+                <p class="have-accuont text-center">Dont Hav Any Account?<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal-sign-up">Register Now!</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal-->
+    <div class="modal fade" id="modal-forget" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close-modal" type="button" data-dismiss="modal" aria-label="Close">×</button>
+            <div class="content-sign-up">
+              <p class="title-modal text-center"> Forget Password</p>
+              <p class="text-center">Pleas Enter Your Email To Recive New Password</p>
+              <div class="caption-modal"> </div>
+              <div class="form-sign-up"> 
+                <form action="#"> 
+                  <div class="custom-input"> 
+                    <input type="email" name="names" placeholder="Email Address">
+                  </div>
+                  <button class="register btn">
+                     Send</button><a class="change-pass" href="#">Change Password?</a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--*----------Start Header-->
+    <div class="header">
+      <div class="containers">
+        <p class="exite"><i class="fa fa-times"> </i></p>
+        <div class="login-user">
+          <p class="log-out"> <a href="#">  Logout</a></p>
+          <div class="img-user"> <img src="./images/img-user.jpg" alt="img user">
+            <p class="user-name">Olbac</p>
+          </div>
+          <div class="ch-lang"><a href="./index-rtl.html"> <img src="./images/TopHeader/flag.png" loading="lazy" alt="flag"><span>Egypt</span></a></div>
+        </div>
+        <nav>
+          <ul class="menu-items">
+            <li> <a class="items" href="./index.html"> <i class="fa fa-home sidebar-icons"></i>Home  </a></li>
+            <li class="dropdwon"> <a class="items sub-btn" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>cameras <i class="fa fa-caret-down toggle-sub-menu"></i></a>
+              <div class="sub-menu"> 
+                <ul> 
+                  <li> <a href="#">Brands one</a></li>
+                  <li> <a href="#">Brands Two</a></li>
+                  <li> <a href="#">Brands Three</a></li>
+                </ul>
+              </div>
+              <div class="container">
+                <div class="mega-menu">
+                  <div class="row"> 
+                    <div class="col-md-4">
+                      <div class="main-brands"> <img src="./images/brands-nav/2.jpg" alt="brand">
+                        <div> 
+                          <p> Camera</p>
+                          <ul> 
+                            <li> <a href="#">DSLR</a></li>
+                            <li> <a href="#">Lens</a></li>
+                            <li> <a href="#">Compact</a></li>
+                            <li> <a href="#">Accessories</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="main-brands"> <img src="./images/brands-nav/5.jpg" alt="brand">
+                        <div> 
+                          <p> Camera</p>
+                          <ul> 
+                            <li> <a href="#">DSLR</a></li>
+                            <li> <a href="#">Lens</a></li>
+                            <li> <a href="#">Compact</a></li>
+                            <li> <a href="#">Accessories</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="main-brands"> <img src="./images/brands-nav/4.jpg" alt="brand">
+                        <div> 
+                          <p> Camera</p>
+                          <ul> 
+                            <li> <a href="#">DSLR</a></li>
+                            <li> <a href="#">Lens</a></li>
+                            <li> <a href="#">Compact</a></li>
+                            <li> <a href="#">Accessories</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="brand-nav">
+                    <h2 class="head-brands">Brands </h2>
+                    <div class="brand">
+                      <div class="box-brand"><a href="./product-details.html"> <img src="./images/brands-nav/2.jpg" alt="img-brand">
+                          <p class="name-brand">Kanon</p></a></div>
+                      <div class="box-brand"><a href="./product-details.html"> <img src="./images/brands-nav/3.jpg" alt="img-brand">
+                          <p class="name-brand">Sony</p></a></div>
+                      <div class="box-brand"><a href="./product-details.html"> <img src="./images/brands-nav/4.jpg" alt="img-brand">
+                          <p class="name-brand">Digital</p></a></div>
+                      <div class="box-brand"><a href="./product-details.html"> <img src="./images/brands-nav/5.jpg" alt="img-brand">
+                          <p class="name-brand">Tikon</p></a></div>
+                      <div class="box-brand"><a href="./product-details.html"> <img src="./images/brands-nav/6.jpg" alt="img-brand">
+                          <p class="name-brand">BlackMag</p></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="dropdwon"> <a class="items sub-btn" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>lenses <i class="fa fa-caret-down toggle-sub-menu"></i></a>
+              <div class="sub-menu"> 
+                <ul> 
+                  <li> <a href="#">Brands one</a></li>
+                  <li> <a href="#">Brands Two</a></li>
+                  <li> <a href="#">Brands Three</a></li>
+                </ul>
+              </div>
+            </li>
+            <li> <a class="items" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>Acessories  </a></li>
+            <li> <a class="items" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>Audio & Video  </a></li>
+            <li> <a class="items" href="./categories.html"> <i class="fa fa-home sidebar-icons"> </i>Bags & Starps </a></li>
+            <li> <a class="items" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>Flashes </a></li>
+            <li> <a class="items" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>Lighting Equipment </a></li>
+            <li> <a class="items" href="./categories.html"><i class="fa fa-home sidebar-icons"> </i>Memory Cards  </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="shipping">
+      <div class="content-steps"> 
+        <ul class="progress-timeline">
+          <li class="active">Shipping</li>
+          <li>Payment</li>
+          <li>Done</li>
+        </ul>
+      </div>
+      <!--== Start Content Shiping Cart -->
+      <div class="shipping-cart-content"> 
+        <div class="container"> 
+          <div class="row"> 
+            <div class="col-md-8"> 
+              <div class="address">
+                <div class="radio-group">
+                  <form action="#"> 
+                    <label class="radio">
+                      <input type="radio" name="del1">ship to my delivery address<span></span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="del1">ship to a nearby pickup location, i will pick it my self<span></span>
+                    </label>
+                    <div class="btn-addres"> 
+                      <button data-toggle="modal" data-target="#new-addres"> New Address</button>
+                    </div>
+                    <label class="radio">
+                      <input type="radio" name="del1">ship to a nearby pickup location, i will pick it my self<span></span>
+                    </label>
+                  </form>
+                </div>
+              </div>
+              <p class="shippied-localy">Shipment 1 (Shipped Localy)</p>
+            </div>
+            <div class="col-md-4"> 
+              <div class="products-bought"> 
+                <div class="head"> 
+                  <p class="h5 title">Shopping Cart</p>
+                  <p class="page-cart"> <a href="./my-cart.html">Back Top Cart </a></p>
+                </div>
+                <div class="box-of-product"> 
+                  <div class="product-image"> <img class="img-fluid" src="./images/products/8.png" loading="lazy" alt="product image"></div>
+                  <div class="product-desc"> 
+                    <!--**------category name-->
+                    <p class="ctg-name">Camers</p>
+                    <p class="product-name">Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa harum, vero error, amet asperiores cumque delectus totam maxime quisquam suscipit fugiat modi. Corrupti exercitationem ipsum, obcaecati blanditiis illum voluptatum voluptatem. dolor sit, amet consectetur adipisicing elit. 
+                      <div class="price-rate">
+                        <p class="price">255.0 LG</p>
+                        <form action="#"> 
+                          <label id="quantity">Quantity :</label>
+                          <input type="number" disabled id="quantity" name="quantity" min="1" max="5" value="1">
+                        </form>
+                      </div>
+                    </p>
+                  </div>
+                </div>
+                <div class="total-items">
+                  <div class="all-product">
+                    <p class="items">item(s):</p>
+                    <p class="price">256 EGP</p>
+                  </div>
+                  <div class="all-shipping"> 
+                    <p class="shipping-name"> + shipping:</p>
+                    <p class="all-price-shipping">6559 EGP</p>
+                  </div>
+                  <div class="grand-total"> 
+                    <div class="total-price"> 
+                      <p class="total">Grand Total:</p>
+                      <p class="total-price">2564 EGP</p>
+                    </div>
+                    <p class="text">order total includes any applicable vat</p>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-border"><a href="./payment.html"> 
+                  <button>Continue</button></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="container"> 
+          <div class="delivery-option"> 
+            <div class="row"> 
+              <div class="col-md-6"> 
+                <div class="product">
+                  <div class="img-product"> <img src="./images/5.jpg" alt="product"></div>
+                  <div class="product-info"> 
+                    <p class="product-name">Canon EOS 5D Mark IV DSLR Camera with 24-105mm f/4L II Lens</p>
+                    <p class="buyer">Sold by : tradoo</p>
+                    <p class="remove"><a href="#">Remove</a></p>
+                  </div>
+                </div>
+                <div class="product">
+                  <div class="img-product"> <img src="./images/4.jpg" alt="product"></div>
+                  <div class="product-info"> 
+                    <p class="product-name">Canon EOS 5D Mark IV DSLR Camera with 24-105mm f/4L II Lens</p>
+                    <p class="buyer">Sold by : tradoo</p>
+                    <p class="remove"><a href="#">Remove</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p class="title-section">Choos A Delvery Option: </p>
+                <form class="choos-input" action="#"> 
+                  <label class="radio">
+                    <input type="radio" name="del1">ship to my delivery address<span></span>
+                  </label>
+                  <p class="caption">Lorem ipsum dolor sit amet.</p>
+                  <div class="btn-price"> <span>456565</span></div>
+                  <label class="radio">
+                    <input type="radio" name="del1">ship to my delivery address<span></span>
+                  </label>
+                  <p class="caption">Lorem ipsum dolor sit amet.</p>
+                  <div class="btn-price"> <span>Free Shipping</span></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container"> 
+          <div class="promocode">
+            <p class="promocode-title">Promocode</p>
+            <div class="form"> 
+              <input type="text" placeholder="Enter Your Promocode">
+              <button data-toggle="modal" data-target="#promocode">Aplly</button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="continue"><a href="./payment.html">Continue </a></div>
+        </div>
+      </div>
+    </div>
+    <!--***------------start Brands-------------------------------->
+    <div class="containers">
+      <div class="brands"> 
+        <div class="brand"> 
+          <div class="owl-carousel owl-theme" id="brands">
+            <div class="item">
+              <div class="img-brand"><a href="#"> <img src="./images/brands/1.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/2.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"><a href="#"> <img src="./images/brands/3.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/4.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/1.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/5.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/2.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/1.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+            <div class="item">
+              <div class="img-brand"> <a href="#"> <img src="./images/brands/3.png" loading="lazy" alt="brand-image"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--***-------------start Other Related------------------------->
+    <div class="containers">
+      <div class="other-related"> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <div class="hot-product"> 
+              <h4 class="heading">Hot Products</h4>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/3.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/6.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"><a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/5.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start Best Seller-->
+          <div class="col-md-4"> 
+            <div class="hot-product">
+              <h4 class="heading">Best Seller</h4>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/3.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/6.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"><a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/5.png" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start Top Related-->
+          <div class="col-md-4"> 
+            <div class="hot-product">
+              <h4 class="heading">Top Related</h4>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/3.png" loading="lazy" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/6.png" loading="lazy" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"><a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam..</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-content"> 
+                <div class="row"> 
+                  <div class="col-lg-4">
+                    <div class="product-image"> <img class="img-fluid" src="./images/products/5.png" loading="lazy" alt="product image"></div>
+                  </div>
+                  <div class="col-lg-8"> 
+                    <div class="product-desc"> 
+                      <!-- category name-->
+                      <p class="ctg-name"><a href="#">Camers</a></p>
+                      <p class="product-name"> <a href="./product-details.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, quisquam.</a></p>
+                      <div class="price-rate"> 
+                        <div class="price"><a href="#"> 
+                            <p class="price">255.0 LG</p></a></div>
+                        <div class="rate"><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon yellow"></i><i class="fa fa-star stars-icon"> </i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--**--start footer-->
+    <div class="footer"> 
+      <div class="container">
+        <div class="row"> 
+          <div class="col-md-3"> 
+            <div class="origin-comp"> 
+              <h2>Olbac</h2>
+              <div class="call"> 
+                <p> <a href="#">Got Questions? Call 24/7</a></p>
+                <h5> <a href="#">(01) 4568-2452, (020)2563-5541</a></h5>
+              </div>
+              <div class="address"> 
+                <p>Address</p>
+                <h5>Lorem ipsum dolor sit amet.</h5>
+              </div>
+              <div class="social-footer"> <a href="#"> <i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-linkedin"></i></a><a href="#"> <i class="fa fa-google"></i></a><a href="#"> <i class="fa fa-pinterest-p"></i></a></div>
+            </div>
+          </div>
+          <div class="col-md-2"> 
+            <div class="fast-links"> 
+              <p>Fast Links</p>
+              <ul> 
+                <li> <a href="./about-us.html">About us</a></li>
+                <li> <a href="#">Privacy Policy</a></li>
+                <li> <a href="#">Terms & Conditions</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="./contact-us.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2"> 
+            <div class="customer-care"> 
+              <p>Customer Care</p>
+              <ul> 
+                <li> <a href="./profile.html">My Account</a></li>
+                <li> <a href="./favourite.html">Wishe list</a></li>
+                <li> <a href="./my-orders.html">Order History</a></li>
+                <li> <a href="./order-info.html">Order Tracking</a></li>
+                <li> <a href="./profile.html">My personal Info</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5"> 
+            <div class="news-letter">
+              <p>Newsletter</p><span>Lorem ipsum dolor sit, amet consectetur adipisicing</span>
+              <form action=""> 
+                <input type="text" name="email" placeholder="Enter Your Email">
+                <button>Submit</button>
+              </form>
+              <div class="app">
+                <div class="app-google-play"> <img src="./images/footer/google-play.png" alt="app"></div>
+                <div class="app-ios-play"> <img src="./images/footer/ios-store.png" alt="app"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sub footer-------->
+    <div class="mini-footer">
+      <div class="container"> 
+        <div class="sub-footer"> 
+          <div class="text-sub-footer">
+            <p>&copy; Olback  - <a href="#"> All rights Reserved</a></p>
+          </div>
+          <div class="payment"> <a href="./shipping.html"> <img src="./images/footer/paypal_logo.png.png" alt="payment"></a><a href="./shipping.html"><img src="./images/footer/Maestro_logo.png.png" alt="payment"></a><a href="./shipping.html"><img src="./images/footer/Visa_logo.png.png" alt="payment"></a><a href="./shipping.html"> <img src="./images/footer/paypal_logo.png.png" alt="payment"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-menu">
+      <ul> 
+        <li><a href="./index.html" id="fixed-item"> <i class="fa fa-home"></i><span>Home </span></a></li>
+        <li> <a href="./deals.html" id="fixed-item"> <i class="fa fa-clone"></i><span>Deals</span></a></li>
+        <li> <a href="./profile.html" id="fixed-item"> <i class="fa fa-user"></i><span> My Account</span></a></li>
+        <li> <a class="notification " href="./favourite.html" id="fixed-item"> <i class="fa fa-heart"><span class="badge">5</span></i><span> Favourite</span></a></li>
+        <li> <a class="notification" href="./my-cart.html" id="fixed-item"> <i class="fa fa-shopping-cart"><span class="badge">3</span></i><span>My Cart</span></a></li>
+      </ul>
+    </div>
+    <script src="./js/jquery-3.4.0.min.js"> </script>
+    <script src="./js/bootstrap.bundle.min.js"> </script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/toastr.min.js"></script>
+    <script src="./js/owl.carousel.min.js"> </script>
+    <script src="./js/zoomsl.js"> </script>
+    <script src="./js/main.js"> </script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+  </body>
+</html>
+<!-- Modal-->
+<div class="modal fade" id="new-addres" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close-modal" type="button" data-dismiss="modal" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="title-modal">
+          <p>Edite Profile </p>
+        </div>
+        <div class="content-modal">
+          <form action="#">
+            <label for="address">Your Address</label>
+            <textarea name="" id="address" cols="20" rows="2"> </textarea>
+            <label for="choos-address">Select option</label>
+            <select name="" id="choos-address"> 
+              <option value="">opton one </option>
+              <option value="">opton one </option>
+              <option value="">opton one </option>
+              <option value="">opton one </option>
+            </select>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" type="button">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--==== Start Promocode modal-->
+<div class="modal fade" id="promocode" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close-modal" type="button" data-dismiss="modal" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body"><img src="./images/order/1.jpg" alt="order-success">
+        <div class="title-modal">
+          <p>Success !</p>
+        </div>
+        <p class="order-number">Order: #4588</p>
+        <p class="msg">Your Order Has Been Confirmed</p>
+        <button class="track-order">Track Your Order</button>
+      </div>
+    </div>
+  </div>
+</div>
